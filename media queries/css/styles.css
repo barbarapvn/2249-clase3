@@ -1,0 +1,52 @@
+header {
+	background: cyan;
+	padding: 50px 0;
+}
+
+h1 {
+	font-size: 100px;
+	color: blue;
+}
+
+@media screen and (max-width: 800px) and (min-width: 701px) {
+	header {
+		background: pink;
+	}
+}
+
+@media (max-width: 700px) { 
+	header {
+		background: yellow;
+	}
+}
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 50px;
+	}
+}
+
+.ver-mas {
+	display: none;
+}
+
+@media (max-width: 720px) {
+	.solo-web {
+		display: none;
+	}
+	.ver-mas {
+		display: inline-block;
+	}
+}
+
+
+/*breakpoint: la medida en que yo decido cuándo cambia. están establecidos los convencionales.
+
+320px como mínimo, se arranca acá. hay que cuidar cómo se ve hasta 320.
+480px
+720px
+990px
+1080px
+1440px
+*/
+
